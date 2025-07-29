@@ -1,0 +1,4 @@
+Use mediapipe to determine whether the hand punch angle is scissors, rock or paper.
+
+This game requires setting up a camera and punching the camera (try to keep the angle facing the camera for easy identification). 
+Pressing s will enter the countdown interval. The user must punch within the interval. The game adopts a best-of-three format.
