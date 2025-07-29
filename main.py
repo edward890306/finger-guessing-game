@@ -26,7 +26,7 @@ def get_hand_sign(hand_landmarks):
         return "rock"
     elif finger_states == [0, 1, 1, 0, 0]:
         return "scissors"
-    elif finger_states == [1, 1, 1, 1, 1] or finger_states == [0, 1, 1, 1, 1]:
+    elif finger_states == [1, 1, 1, 1, 1]:
         return "paper"
     else:
         return None
