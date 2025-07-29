@@ -122,9 +122,7 @@ while True:
         else:
             draw_text_center(img, "You Lose!", (img.shape[1] // 2, img.shape[0] // 2), (0, 0, 255), 2.5, 6)
 
-        # 改動重點：結束顯示結果但不自動清除，讓玩家能隨時按 s 開啟下一回合
-        # 玩家按 s 時會啟動新回合，不用等待 cooldown
-        # 所以這裡不再用 cooldown 清除 show_result
+        
 
     if player_score == 2 or computer_score == 2:
         winner_text = "You Win the Game!" if player_score == 2 else "Computer Wins the Game!"
